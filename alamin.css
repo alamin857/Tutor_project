@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+.ami{
+	color:green;
+}
+body{
+	background-image: url(2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.main{
+	max-width: 1200px;
+	margin:auto;
+	margin-top: 10px;
+}
+ul{
+float:left;
+list-style-type: none;
+margin-top: 10px;
+margin-left: 15px;
+
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	color:  #242224  ;
+	padding: 5px 16px;
+	 border: 1px solid transform;
+
+}
+ul li a:hover{
+	background-color: pink;
+	color: red;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: red;
+	font-size: 70px;
+	font-family: oblique;
+	text-transform: capitalize;
+
+}
